@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.Main {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 500px;
+    background-color:rgb(83, 129, 235);
+    border-width: 0px;
+    border-radius: 10px;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+.input {
+  width: 600px;
+  display:flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+input {
+    height: 44px;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(27, 27, 27);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+select
+{
+    padding-left: 10px;
+    height: 44px;
+    width: 500px;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(27, 27, 27);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 600px;
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(27, 27, 27);
+  font-size: 30px;
+}
+
